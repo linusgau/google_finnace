@@ -1,4 +1,4 @@
-# 谷歌.py
+
 import pandas as pd
 from pandas_datareader import data as pdr
 import datetime
@@ -12,9 +12,3 @@ import matplotlib.pyplot as plt
 plt.plot(finace.index,finace["Open"])
 plt.show()
 
-
-# ~  sudo rm -rf /var/lib/dpkg/lock
-
-# ~     sudo rm -rf /var/cache/apt/archives/lock
-
-# ~     sudo apt-get update
